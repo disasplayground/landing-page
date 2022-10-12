@@ -1,0 +1,253 @@
+body {
+    background-color: #F7F3ED;
+}
+
+header {
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    flex: 2 0 80%;
+}
+
+h1 {
+    font-family: "Karla", "Open Sans", Verdana, sans-serif;
+    color: #EF2F88;
+    font-size: 2.6em;
+    font-weight: 500;
+}
+
+h2 {
+    font-family: "Karla", "Open Sans", Roboto, sans-serif;
+    color: #262124;
+    font-size: 2em;
+    font-weight: 300;
+}
+
+h3 {
+    font-family: "Karla", "Open Sans", Roboto, sans-serif;
+    color: #262124;
+    font-size: 1.7em;
+    font-weight: 300;
+    line-height: 1em;
+    margin: 5px;
+    padding: 0px;
+}
+
+h4 {
+    font-family: "Karla", "Open Sans", Roboto, sans-serif;
+    color: #262124;
+    font-size: 1.4em;
+    font-weight: 300;
+    margin: 5px;
+    padding: 0px;
+}
+
+p {
+    font-family: "Plus Jakarta Sans", Helvetica, sans-serif;
+    color: #262124;
+    font-weight: 300;
+    margin: 5px;
+    padding: 0px;
+}
+
+button {
+    background-color: #8843F2;
+    color: #F7F3ED;
+    font-weight: 400;
+    font-size: 1.2em;
+    padding: 8px 10px 8px 10px;
+    margin: 30px 0 20px 0;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+}
+
+button:hover {
+    background-color: #F47340;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex: 1 1 auto;
+}
+
+nav a {
+    color: #262124;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #262124;
+    text-decoration: underline 4px solid #F9D371;
+}
+
+nav .logo {
+    justify-content: flex-start;
+    padding-left: 20px;
+    align-self: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: 1 1 auto;
+    padding: 50px 20px 40px 20px;
+}
+
+footer .copy {
+    text-align: left;
+    font-size: 0.9em;
+}
+
+footer .credit {
+    text-align: right;
+    font-size: 0.9em;
+}
+
+a {
+    text-decoration: none;
+    color: #F47340;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #262124;
+    background-color: #F9D371;
+}
+
+.wrapper {
+    display: flex;
+    flex-flow: column;
+    align-items: stretch;
+    justify-content: center;
+    flex: 1 1 auto;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.topnav-menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+    gap: 20px;
+}
+
+
+.header-image {
+    background-color: #F9D371;
+    border: 3px solid #F47340;
+    width: 40%;
+    min-width: 300px;
+    height: auto;
+    border-radius: 30px;
+}
+
+
+.block2 {
+    min-height: 350px;
+    max-height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.block-title {
+    align-self: center;
+    flex-wrap: nowrap;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #F7F3ED;
+    z-index: 2;
+}
+
+.block-title h3, .block3 h3 {
+    color: #262124;
+}
+
+.block2 .items {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    border: 3px dashed #EF2F88;
+    border-radius: 30px;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: -15px;
+}
+
+.block2 .item {
+    width: 250px;
+    text-align: center;
+    align-self: flex-start;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.block2 .thumbnail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    background-color: #F9D371;
+    border: 2px #F47340 solid;
+    border-radius: 30px;
+    margin: auto;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.block2 img {
+    height: 180px;
+    width: auto;
+}
+
+.block3 {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px 65px 20px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+}
+
+.block4 {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.block4 .cta {
+    background-color: #EF2F88;
+    border-radius: 30px;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.block4 h3, .block4 p {
+    color: #F7F3ED;
+}
+
+
